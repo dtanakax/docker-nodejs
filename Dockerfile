@@ -1,5 +1,5 @@
 # Set the base image
-FROM tanaka0323/debianjp
+FROM tanaka0323/debianjp:latest
 
 ENV NODE_VERSION 0.12.0
 ENV NPM_VERSION 2.7.1
