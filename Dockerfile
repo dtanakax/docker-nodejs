@@ -4,6 +4,8 @@ FROM tanaka0323/debianjp:latest
 # File Author / Maintainer
 MAINTAINER tanaka@infocorpus.com
 
+ENV DEBIAN_FRONTEND noninteractive
+
 ENV NODE_VERSION 0.12.0
 ENV NPM_VERSION 2.7.1
 
