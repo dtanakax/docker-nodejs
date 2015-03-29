@@ -25,5 +25,3 @@ RUN rm "node-v$NODE_VERSION-linux-x64.tar.gz"  SHASUMS256.txt.asc
 RUN apt-get clean all
 RUN npm install -g npm@"$NPM_VERSION"
 RUN npm cache clear
-
-CMD ["node"]
