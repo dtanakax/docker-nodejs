@@ -1,4 +1,4 @@
-![node_js 0.12.0](https://img.shields.io/badge/node_js-0.12.0-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![node_js 0.12.1](https://img.shields.io/badge/node_js-0.12.1-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # docker-nodejs
 

@@ -6,7 +6,7 @@ MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV NODE_VERSION 0.12.0
+ENV NODE_VERSION 0.12.1
 ENV NPM_VERSION 2.7.1
 
 RUN apt-get -y update
