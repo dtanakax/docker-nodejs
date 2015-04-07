@@ -4,14 +4,14 @@
 
 ### Base Docker Image
 
-[tanaka0323/debianjp](https://bitbucket.org/tanaka0323/docker-debianjp "tanaka0323/debianjp")
+[tanaka0323/debianjp](https://bitbucket.org/tanaka0323/docker-debianjp)
 
 ### 説明
 
 Node.js Dockerコンテナイメージです。
 
-[Dockerとは？](https://docs.docker.com/ "Dockerとは？")  
-[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/ "Docker Command Reference")
+[Dockerとは？](https://docs.docker.com/)  
+[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
 ### 使用方法
 
@@ -21,11 +21,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t <tag>/nodejs .
+    $ docker build -t tanaka0323/nodejs .
 
 起動
 
-    $ docker run --name <name> -ti <tag>/nodejs bash
+    $ docker run --name <name> -ti tanaka0323/nodejs bash
 
 ### License
 
