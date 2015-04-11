@@ -1,19 +1,23 @@
 ![node_js 0.12.2](https://img.shields.io/badge/node_js-0.12.2-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# docker-nodejs
+docker-nodejs
+=====================
 
-### Base Docker Image
+Base Docker Image
+---------------------
 
 [tanaka0323/debianjp](https://bitbucket.org/tanaka0323/docker-debianjp)
 
-### 説明
+説明
+---------------------
 
 Node.js Dockerコンテナイメージです。
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
-### 使用方法
+使用方法
+---------------------
 
 git pull後に
 
@@ -27,7 +31,8 @@ git pull後に
 
     $ docker run --name <name> -ti tanaka0323/nodejs bash
 
-### License
+License
+---------------------
 
 The MIT License
 Copyright (c) 2015 Daisuke Tanaka
