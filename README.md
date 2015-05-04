@@ -18,7 +18,7 @@ Node.js Dockerコンテナ作成設定
 
 起動
 
-    $ docker run --name <name> -ti dtanakax/nodejs node server
+    $ docker run --name <name> -ti dtanakax/nodejs node
 
 License
 ---------------------
