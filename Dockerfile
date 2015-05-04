@@ -1,8 +1,8 @@
 # Set the base image
-FROM tanaka0323/debianjp:latest
+FROM dtanakax/debianjp:wheezy
 
 # File Author / Maintainer
-MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
+MAINTAINER Daisuke Tanaka, dtanakax@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -23,6 +23,6 @@ RUN gpg --verify SHASUMS256.txt.asc
 RUN grep " node-v$NODE_VERSION-linux-x64.tar.gz\$" SHASUMS256.txt.asc | sha256sum -c -
 RUN tar --strip-components 1 -xzvf "node-v$NODE_VERSION-linux-x64.tar.gz" -C /usr/local
 RUN rm "node-v$NODE_VERSION-linux-x64.tar.gz"  SHASUMS256.txt.asc
-RUN apt-get clean all
-RUN npm install -g npm@"$NPM_VERSION"
-RUN npm cache clear
+
+RUN npm install -g npm@"$NPM_VERSION" && \
+    npm cache clear
