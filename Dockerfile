@@ -6,7 +6,7 @@ MAINTAINER Daisuke Tanaka, dtanakax@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV NODE_VERSION 0.12.3
+ENV NODE_VERSION 0.10.38
 ENV NPM_VERSION 2.10.0
 
 RUN apt-get update && \
