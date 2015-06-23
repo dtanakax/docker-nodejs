@@ -6,8 +6,8 @@ MAINTAINER Daisuke Tanaka, dtanakax@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV NODE_VERSION 0.12.4
-ENV NPM_VERSION 2.11.0
+ENV NODE_VERSION 0.12.5
+ENV NPM_VERSION 2.12.0
 
 RUN apt-get update && \
     apt-get -y install curl && \
